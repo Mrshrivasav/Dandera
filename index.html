@@ -85,6 +85,10 @@
             footer {
                 padding: 15px;
             }
+
+            .container {
+                padding: 0 10px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -109,6 +113,34 @@
                 margin: 5px 0;
             }
         }
+
+        .college-list {
+            margin: 40px 0;
+        }
+
+        .college-list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .college-list th, .college-list td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .college-list th {
+            background-color: #f3c612;
+            color: #fff;
+        }
+
+        .college-list img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
     </style>
 </head>
 <body>
@@ -121,8 +153,40 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfks66sD8lvAay389uNO27-jnTGza2K_knFf67MWcTwIK9tIQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 
+    <div class="container college-list">
+        <h2>List of Colleges in Greater Noida</h2>
+        <table>
+            <tr>
+                <th>College Name</th>
+                <th>Description</th>
+                <th>Eligibility Criteria</th>
+                <th>Image</th>
+            </tr>
+            <!-- Repeat this <tr> block for each college -->
+            <tr>
+                <td>Sharda University</td>
+                <td>A well-known private university offering a range of undergraduate and postgraduate programs.</td>
+                <td>10+2 with a minimum of 50% marks. Specific requirements vary by course.</td>
+                <td><img src="https://via.placeholder.com/150" alt="Sharda University"></td>
+            </tr>
+            <tr>
+                <td>Galgotias University</td>
+                <td>Offers diverse programs with modern facilities and experienced faculty.</td>
+                <td>10+2 with a minimum of 50% marks. Check specific course requirements.</td>
+                <td><img src="https://via.placeholder.com/150" alt="Galgotias University"></td>
+            </tr>
+            <tr>
+                <td>Accurate Institute of Management and Technology</td>
+                <td>Provides high-quality education in management and technology.</td>
+                <td>10+2 with a minimum of 50% marks. Course-specific eligibility applies.</td>
+                <td><img src="https://via.placeholder.com/150" alt="Accurate Institute of Management and Technology"></td>
+            </tr>
+            <!-- Add more colleges as needed -->
+        </table>
+    </div>
+
     <footer>
-        <p>Contact us: <a href="https://forms.gle/your-google-form-link" target="_blank">Google Form</a></p>
+        <p>Contact us: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfks66sD8lvAay389uNO27-jnTGza2K_knFf67MWcTwIK9tIQ/viewform" target="_blank">Google Form</a></p>
         <div class="socials">
             <p>Follow Danedra Arya:</p>
             <a href="mailto:danedra.arya@example.com">Email</a>
